@@ -19,6 +19,13 @@ body {
     height: 50px;
 }
 
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 .navbar nav ul {
     list-style: none;
     display: flex;
@@ -34,7 +41,7 @@ body {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-image: url('images/coverpage.jpeg');
+    background-image: url('images/hero-background.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -171,4 +178,8 @@ body {
 .category-item h3 {
     font-size: 1em;
     color: #333;
+}
+
+.topic-card:hover img {
+    filter: grayscale(0);
 }
