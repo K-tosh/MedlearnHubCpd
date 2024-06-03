@@ -1,0 +1,174 @@
+/* Basic styles for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.hero-buttons .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+
+.cover-image-background {
+    width: 100%;
+    height: 800px;
+    background-image: url('images/medlearnhublogo.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.cover-image-background .cover-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+}
+
+/* Featured Courses section styles */
+.featured-courses {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+.featured-courses h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.featured-courses p {
+    margin-bottom: 40px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.course-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.course-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.course-item span {
+    display: block;
+    font-size: 0.8em;
+    color: #555;
+}
+
+/* Course Categories section styles */
+.course-categories {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.course-categories h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+.category-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.category-item h3 {
+    font-size: 1em;
+    color: #333;
+}
